@@ -1,5 +1,5 @@
 terraform {
-  source = "git::git@github.com:bobburke1234/infrastructure-modules.git//app?v0.0.3"
+  source = "git::git@github.com:bobburke1234/infrastructure-modules.git//app?ref=v0.0.3"
 }
 inputs = {
   instance_count = 1
